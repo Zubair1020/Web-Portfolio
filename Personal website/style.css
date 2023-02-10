@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* *************Root Styel***************** */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* ********** Varyables  ********** */
+:root {
+    --gray:     #808080;
+    --hot-pink: #ff1a75;
+    --white:    #ffff;
+}
+
+/* ***********  Top Banner  ************* */
+
+p {
+    color: var(--gray);
+    font-size: 1.1rem;
+}
+button {
+    background-color: var(--hot-pink);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: var(--white);
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.top-banner {
+    display: flex;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    gap: 2rem;
+    padding: 5rem 6rem 5rem 8rem;
+    line-height: 1.8;
+}
+
+.title h2 {
+    font-weight: normal;
+    font-size: 2.6rem;
+}
+.title h1 {
+    color:  var(--hot-pink);
+    font-size: 3.6rem;
+    font-weight: 900;
+}
+
+/* **********  Biography  ********** */
+
+.biography {
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    display: flex;
+    padding:  5rem 2rem 5rem 5rem;
+    gap: 5rem;
+    align-items: center;
+    line-height: 1.58;
+}
+
+.biography img {
+    max-width:  30rem;
+}
+.cv h2 {
+    font-size: 1.9rem;
+    padding-bottom: 1rem;
+}
+.cv p {
+    max-width: 29rem;
+}
+
+
+/* *********  Letest Works  ******* */
+
+.works {
+    background-image: url("images/latest-work-bg.png");
+    background-size: cover;
+    text-align: center;
+    padding: 8rem;
+}
+.works h2 {
+    font-size: 2rem;
+    padding-bottom: 5rem;
+}
+.card {
+    display: flex;
+    gap: 3rem;
+}
+.card * {
+    box-shadow: 1px 5px 15px rgba(128, 128, 128, 0.224);
+}
+.card img {
+    border-radius: 5px;
+}
+
+/* ***********  Review  ************ */
+
+.review {
+    text-align: center;
+    padding: 5rem 0;
+    background-image: url("images/footer-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.review h2 {
+    font-size: 2.6rem;
+    padding-bottom: 5rem;
+}
+.review h3 {
+    font-size: 1.5rem;
+}
+.review h4 {
+    color: var(--gray);
+    font-size: .8rem;
+    padding-bottom: 4rem;
+}
+.review P {
+    color: black;
+    font-weight: 500;
+}
+.review-btn {
+    font-size: 1rem;
+    padding: 3rem 5rem;
+    border-radius: 10px;
+    margin-top: 4rem;
+}
+.review-btn p {
+    color: var(--white);
+}
+.review-btn span {
+    font-size: 2rem;
+}

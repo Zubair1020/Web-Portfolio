@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1.5;
+}
+input,
+button {
+  border: none !important;
+  outline: none !important;
+}
+ul,
+li,
+a {
+  text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+    background-image: url("images/bg-2.png");
+    background-repeat: no-repeat;
+    background-position: -3.5rem  40rem;
+    padding: 2rem 0 4rem;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  gap: 1.2rem;
+}
+.nav-item a {
+  font-size: 18px;
+  color: #707070;
+  font-weight: 500;
+}
+
+p {
+  font-size: 18px;
+  line-height: 35px;
+  color: #707070;
+  font-weight: 300;
+}
+
+.carousel-item > .row {
+  align-items: center;
+}
+.Banner {
+  background-image: url("images/bg-1.png");
+  background-repeat: no-repeat;
+  background-position: 36vw center;
+  background-size: 4.5rem;
+}
+.buy-now-btn {
+  border-radius: 9px;
+  background-color: #000000;
+  color: #ffff;
+  padding: 0.9rem 1.4rem;
+}
+.Banner p {
+  margin: 1rem 0 1.5rem;
+}
+.carousel-indicator-bottom {
+  width: 16px !important;
+  height: 12px !important;
+  border-radius: 50%;
+  background-color: #cecece !important;
+}
+.carousel-indicators .active {
+  padding: 0.1rem 0.8rem;
+  outline: none;
+  border-radius: 0.8rem;
+  background-image: linear-gradient(142deg, #ff9c35 0%, #ffd019 100%);
+}
+
+
+/* ************  Cards  ************** */
+.Mobile-sec {
+    padding: 5rem 0;
+}
+.see-all a {
+    font-size: 22px;
+color: #ff9d00;
+font-weight: 500;
+}
+.mobile-card {
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+.card {
+    border: none;
+    border-radius: 21px;
+    filter: drop-shadow(0px 10px 17.5px rgba(0, 0, 0, 0.106));
+    background-color: #ffffff;
+}
+.card> * {
+    flex-basis: 100%;
+}
+.card>img {
+    padding: 2.2rem;
+}
+.card h5 {
+    font-weight: 500;
+    padding-bottom: .8rem;
+}
+.card p {
+    font-size: 1rem;
+    line-height: 30px;
+    padding-bottom: 1rem;
+    max-width: 15rem;
+    margin: auto;
+}

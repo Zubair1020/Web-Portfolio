@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    line-height: 1.5;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+  }
+input,
+textarea,
+select,
+button {
+  color: inherit; 
+  font: inherit; 
+  letter-spacing: inherit; 
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    color: dimgray;
+}
+button{
+    border: none;
+    background-color: tomato;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 1.5rem;
+}
+.highlight {
+    color: orange;
+}
+.top-sec, .middle-sec {
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 5.5rem;
+}
+
+
+.top-sec {
+    background-image: url("images/top-banner.png");
+    padding: 8%;
+}
+.header-txt h1{
+    font-size: 3.125rem;
+    padding-bottom: 2rem;
+}
+.header-txt h3 {
+    padding-bottom: 1.5rem;
+}
+
+.top-button a{
+    color: white;
+}
+
+
+
+.middle-sec {
+    padding: 5rem;
+    background-image: url("images/dream-bg.png");
+    background-position: right;
+}
+.middle-sec h2 {
+    font-size: 1.8rem;
+    padding-bottom: .5rem;
+}
+.middle-sec h3 {
+    font-size: 1.32rem;
+    padding-bottom: 0.4rem;
+}
+.bottom-sec {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 2rem;
+}
+.card {
+    display: flex;
+    gap: 5.5rem;
+    padding: 2rem;
+}
+.card div {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    border-left: 7px solid;
+    padding: 2.9rem;
+}
+#exp-title {
+    font-size: 1.9rem;
+    padding-left: 1rem;
+}
+.card h2 {
+    padding-bottom: 1.5rem;
+    font-size: 1.551rem;
+}
+.card h3 {
+    padding-bottom: .8rem;
+}
+#full-stack {
+   border-image: linear-gradient(180deg, red, hotpink);
+   border-image-slice: 1;
+}
+#stack {
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.1rem;
+}
